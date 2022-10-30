@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 4px;
+  margin: 0;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  color: #333;
+  line-height: 1.6;
+
+  background-color: rgb(230, 252, 243);
+  font-weight: bold;
+  padding-left: 20%;
+  padding-top: 8px;
+  padding-right: 20%;
+}
+#title,
+#description {
+  background-color: rgb(5, 69, 88);
+
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+#survey-form {
+  padding-left: 10%;
+  padding-top: 8px;
+  padding-right: 10%;
+  padding-bottom: 8px;
+  display: grid;
+  justify-content: center;
+  background-color: rgb(138, 217, 192);
+}
+#submit {
+  background-color: blue;
+  color: white;
+  padding: 12px 70px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">School Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us by filling the form
+    </p>
+    <form id="survey-form">
+      <br />
+      <label id="name-label" for="name">Name: </label>
+      <input type="text" name="name" id="name" placeholder="Name" required />
+
+      <label id="email-label" for="email">E-mail: </label>
+      <input
+        id="email"
+        type="text"
+        name="email"
+        placeholder="E-mail"
+        required
+      />
+
+      <label id="name-number" for="number">Contact number:</label>
+      <input
+        type="number"
+        min="10"
+        max="12"
+        id="number"
+        placeholder="contact number"
+        width="12px"
+      /><br />
+
+      <select id="dropdown" name="primary student">
+        <option value="">--please choose an option--</option>
+        <option value="student of class 1-7">student of class 1-7</option>
+        <option value="student of class 7-10">student of class 7-10</option>
+        <option value="teacher">teacher</option>
+        <option value="janitor">janitor</option>
+        <option value="cafeteria cook">cafeteria cook</option>
+      </select>
+
+      <p>Your opinion about the school</p>
+      <span
+        ><input type="radio" value="very good" name="about" />very Good<br
+      /></span>
+      <span
+        ><input
+          type="radio"
+          value="satisfactory"
+          name="about" />satisfactory<br
+      /></span>
+      <span
+        ><input type="radio" value="Needs improvement" name="about" />Needs
+        improvement<br
+      /></span>
+      <p>Select your memberships</p>
+      <label for="sports club"
+        ><input id="sports club" type="checkbox" name="sports club" /> sports
+        club</label
+      >
+      <label for="art club"
+        ><input id="art club" type="checkbox" name="art club" /> art club</label
+      >
+      <label for="dance club"
+        ><input id="dance club" type="checkbox" name="dance club" /> dance
+        club</label
+      >
+
+      <p>Enter your suggessions if any</p>
+      <textarea name="comment" id="" cols="30" rows="5">
+your suggessions</textarea
+      ><br />
+      <button id="submit" type="submit">submit</button>
+    </form>
+  </body>
+</html>
